@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Intro from './component/Intro'
-import Page from './Portfolio/page'
+import Service from './component/service'
 import Skills from './component/skills'
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
     <>
       
         <Intro/>
-      <Page/>
+      <Service/>
       <Skills/>
       
             </>

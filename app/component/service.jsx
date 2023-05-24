@@ -1,9 +1,9 @@
-"use client"
+
 import Script from "next/script"
 import Image from "next/image"
 
 
-function Page() {
+function Service() {
 
     const spinFunc=()=>{    
         setTimeout(window.pausefunction, 2600);
@@ -43,19 +43,19 @@ function Page() {
                         </div>
                     </div>
                     <div className="dota">
-                        <img className="firstimg1 dot1" src="./burger.PNG" />
+                        <Image className="firstimg1 dot1" src="./burger.PNG" width={500} height={500} alt='A delicious burger'  />
                         {/* <Image className="firstimg1 dot1" src='/burger.PNG' width={500} height={500} alt='A delicious burger' layout='responsive' quality={90} /> */}
-                        <img className="firstimg2 dot2" src="./ball4.PNG" />
+                        <Image className="firstimg2 dot2" src="./ball4.PNG"  width={500} height={500} />
 
                     </div>
                     <div className="dotb">
-                        <img className="secondimg1 dot3" src="./ball2.PNG" />
-                        <img className="secondimg2 dot4" src="./ball4.PNG" />
+                        <Image className="secondimg1 dot3" src="./ball2.PNG"  width={500} height={500} />
+                        <Image className="secondimg2 dot4" src="./ball4.PNG"  width={500} height={500} />
 
                     </div>
                     <div className="dotc">
-                        <img className="thirdimg1 dot5" src="./mobile.PNG" />
-                        <img className="thirdimg2 dot6" src="./laptop.PNG" />
+                        <Image className="thirdimg1 dot5" src="./mobile.PNG"  width={500} height={500}/>
+                        <Image className="thirdimg2 dot6" src="./laptop.PNG"  width={500} height={500} />
 
                     </div>
 
@@ -113,4 +113,4 @@ function Page() {
     )
 }
 
-export default Page
+export default Service
