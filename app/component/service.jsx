@@ -43,19 +43,19 @@ function Service() {
                         </div>
                     </div>
                     <div className="dota">
-                        <Image className="firstimg1 dot1" src="./burger.PNG" width={500} height={500} alt='A delicious burger'  />
-                        {/* <Image className="firstimg1 dot1" src='/burger.PNG' width={500} height={500} alt='A delicious burger' layout='responsive' quality={90} /> */}
-                        <Image className="firstimg2 dot2" src="./ball4.PNG"  width={500} height={500} />
+                        <Image className="firstimg1 dot1" src="./burger.png" width={500} height={500} alt='A delicious burger'  />
+                        {/* <Image className="firstimg1 dot1" src='/burger.png' width={500} height={500} alt='A delicious burger' layout='responsive' quality={90} /> */}
+                        <Image className="firstimg2 dot2" src="./ball4.png"  width={500} height={500} />
 
                     </div>
                     <div className="dotb">
-                        <Image className="secondimg1 dot3" src="./ball2.PNG"  width={500} height={500} />
-                        <Image className="secondimg2 dot4" src="./ball4.PNG"  width={500} height={500} />
+                        <Image className="secondimg1 dot3" src="./ball2.png"  width={500} height={500} />
+                        <Image className="secondimg2 dot4" src="./ball4.png"  width={500} height={500} />
 
                     </div>
                     <div className="dotc">
-                        <Image className="thirdimg1 dot5" src="./mobile.PNG"  width={500} height={500}/>
-                        <Image className="thirdimg2 dot6" src="./laptop.PNG"  width={500} height={500} />
+                        <Image className="thirdimg1 dot5" src="./mobile.png"  width={500} height={500}/>
+                        <Image className="thirdimg2 dot6" src="./laptop.png"  width={500} height={500} />
 
                     </div>
 
