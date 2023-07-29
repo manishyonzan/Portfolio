@@ -28,7 +28,7 @@ function Intro() {
 
       </div>
       <div className="introSectionDiv">
-        <Image src="./man1.png" alt="mickey mouse" width={400} height={800} />
+        <Image src="./undraw.svg" alt="mickey mouse" width={400} height={800} />
       </div>
     </section>
   )
