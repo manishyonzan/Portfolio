@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Intro from './component/Intro'
 import Service from './component/service'
 import Skills from './component/skills'
+import './globals.css'
 
 export default function Home() {
   return (
