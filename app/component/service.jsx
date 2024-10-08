@@ -5,11 +5,11 @@ import Image from "next/image"
 
 function Service() {
 
-    const spinFunc=()=>{    
+    const spinFunc = () => {
         setTimeout(window.pausefunction, 2600);
 
     }
-    const spinFunc2=()=>{    
+    const spinFunc2 = () => {
         setTimeout(window.pausefunction2, 2600);
 
     }
@@ -25,7 +25,7 @@ function Service() {
             </div>
 
             <div className="service-container" id="gothere">
-                
+
                 <div className="service-main">
                     <div className="dotbg">
                         <svg className="svgc" height="450" width="450">
@@ -43,19 +43,19 @@ function Service() {
                         </div>
                     </div>
                     <div className="dota">
-                        <Image className="firstimg1 dot1" src="./burger.png" width={500} height={500} alt='A delicious burger'  />
+                        <Image className="firstimg1 dot1" src="./burger.png" width={500} height={500} alt='A delicious burger' />
                         {/* <Image className="firstimg1 dot1" src='/burger.png' width={500} height={500} alt='A delicious burger' layout='responsive' quality={90} /> */}
-                        <Image className="firstimg2 dot2" src="./ball4.png"  width={500} height={500} />
+                        <Image className="firstimg2 dot2" src="./ball4.png" width={500} height={500} />
 
                     </div>
                     <div className="dotb">
-                        <Image className="secondimg1 dot3" src="./ball2.png"  width={500} height={500} />
-                        <Image className="secondimg2 dot4" src="./ball4.png"  width={500} height={500} />
+                        <Image className="secondimg1 dot3" src="./ball2.png" width={500} height={500} />
+                        <Image className="secondimg2 dot4" src="./ball4.png" width={500} height={500} />
 
                     </div>
                     <div className="dotc">
-                        <Image className="thirdimg1 dot5" src="./mobile.png"  width={500} height={500}/>
-                        <Image className="thirdimg2 dot6" src="./laptop.png"  width={500} height={500} />
+                        <Image className="thirdimg1 dot5" src="./mobile.png" width={500} height={500} />
+                        <Image className="thirdimg2 dot6" src="./laptop.png" width={500} height={500} />
 
                     </div>
 
@@ -67,7 +67,7 @@ function Service() {
                         <div className="topic-description-content">
                             <div className="topic-description-div topic-description-mobile">
                                 <h2>WEB</h2>
-                                <h4><b>Develop</b> Web application,Desktop Application. Simple Websites for your Business.Mobile Friendly websites </h4>
+                                <h4><b>Develop</b> Web application, Simple Websites for your Business, Mobile Friendly,Inventory Management, POS. </h4>
                                 <li style={{ "listStyle": "none", "fontWeight": "bold", "margin": "10px" }}>
                                     Responsive Design
                                     <svg className="laptop-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" style={{ "fill": "orangered" }}>
@@ -83,7 +83,7 @@ function Service() {
                             </div>
                             <div className="topic-description-div topic-description-web">
                                 <h2>Mobile App</h2>
-                                <h4><b>Develop</b> MObile Application for Android and IOS with React Native.Simple Apps for your Business.Processor Friendly Application. </h4>
+                                <h4><b>Develop</b> MObile Application for Android and IOS with React Native. Simple Apps for your Business. </h4>
                                 <li style={{ "listStyle": "none", "fontWeight": "bold", "margin": "10px" }}>
                                     Responsive Design
                                     <svg className="laptop-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" style={{ "fill": "orangered" }}>
@@ -104,11 +104,13 @@ function Service() {
 
                     {/* <button className="buttondiv2" onClick="setTimeout(pausefunction2, 2600)">WEB</button>
             <button className="buttondiv" onClick="setTimeout(pausefunction, 2600)">Mobile</button> */}
-                    <button className="buttondiv2" onClick={spinFunc2}>WEB</button>
-                    <button className="buttondiv" onClick={spinFunc}>Mobile</button>
+                    <div className="service-main--button">
+                        <button className="buttondiv2" onClick={spinFunc2}>WEB</button>
+                        <button className="buttondiv" onClick={spinFunc}>Mobile</button>
+                    </div>
                 </div >
             </div >
-            
+
         </>
     )
 }
