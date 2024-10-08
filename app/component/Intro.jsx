@@ -27,8 +27,10 @@ function Intro() {
         </div>
 
       </div>
+
       <div className="introSectionDiv introSectionDivImage">
         <Image title="cool kid" src="./kid_zoro.png" alt="kid zoro" width={300} height={300} />
+     
       </div>
     </section>
   )
